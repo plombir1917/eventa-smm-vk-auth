@@ -28,7 +28,7 @@ onMounted(async () => {
 
   VKID.Config.init({
     app: 53404751,
-    redirectUrl: `https://reutov2f.beget.tech`,
+    redirectUrl: `https://reutov2f.beget.tech/vk-auth`,
     scope: 'wall groups photos',
   });
 
