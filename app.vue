@@ -28,7 +28,7 @@ onMounted(async () => {
 
   VKID.Config.init({
     app: 53404751,
-    redirectUrl: `https://eventa-smm.netlify.app/`,
+    redirectUrl: `https://reutov2f.beget.tech`,
     scope: 'wall groups photos',
   });
 
