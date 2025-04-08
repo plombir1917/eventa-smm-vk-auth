@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /app.vue
+
+# Запрещаем индексацию служебных файлов и директорий
+Disallow: /.env
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /.nuxt/
+Disallow: /dist/
+
+# Sitemap
+Sitemap: https://reutov2f.beget.tech/sitemap.xml
+
+# Скорость обхода
+Crawl-delay: 10 
